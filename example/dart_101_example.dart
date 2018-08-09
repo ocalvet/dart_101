@@ -16,4 +16,8 @@ main(List<String> args) {
 
   print('Argument ' + argResults[lineNumber].toString());
 
+  for (var arg in args) {
+    print(arg.toString());
+  }
+
 }
